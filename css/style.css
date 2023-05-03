@@ -1,0 +1,50 @@
+
+	@font-face{font-family: poppines-regular;
+	src: url(../fonts/poppins/poppins-regular.otf);}
+
+	
+
+
+/*common css start*/
+body{
+	margin: 0;
+	font-family:'Poppins', sans-serif;'  ;
+	font-size: 16px;
+	font-weight: 400px;
+	color:#000000;
+}
+
+
+
+header{}
+.cnav{}
+
+.menu ul li a{
+ font-family:poppines-regular !important;
+ font-weight: 400 ;
+
+
+}
+
+/*selector*/
+.intro{
+	background-color: darkred;
+}
+
+p.bg{
+	background-color: lightblue;
+}
+
+div > p{
+	background: gray;
+}
+
+a:active{
+
+background: red;
+}
+
+input:checked{
+	height:50px;
+	width: 50px;
+}
